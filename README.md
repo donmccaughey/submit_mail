@@ -30,8 +30,8 @@ Call `submit_mail` from a bash script like this:
         --username=user@example.com \
         --password=very-secret \
         --from=alice@example.com \
-        --subject="Testing submit_mail" \
         --to=bob@example.com \
+        --subject="Testing submit_mail" \
     <<EOF
     This is a test e-mail sent with the submit_mail command.
     EOF
